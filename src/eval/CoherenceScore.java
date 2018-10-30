@@ -9,9 +9,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class CoherencyScore {
+public class CoherenceScore {
 	
-	public CoherencyScore(String documents, String doc_topics, int num_top_wrds){
+	public CoherenceScore(String documents, String doc_topics, int num_top_wrds){
 		try{
 			// read document topics 
 			HashMap<Integer, String> docTopics = readDocTopics(doc_topics); 
@@ -179,7 +179,7 @@ public class CoherencyScore {
 		String docs = args[0];
 		String doc_topics = args[1];
 		int num_top_words = Integer.parseInt(args[2]);
-		CoherencyScore coh = new CoherencyScore(docs, doc_topics, num_top_words);
+		CoherenceScore coh = new CoherenceScore(docs, doc_topics, num_top_words);
 	}
 }
 
