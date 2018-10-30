@@ -7,7 +7,7 @@ Coherency is used for measuring the quality of extracted topics in a topic class
 
 ![](https://latex.codecogs.com/gif.latex?C%28z%2CW%5Ez%29%20%3D%20%5Csum_%7Bi%3D2%7D%5E%7Bm%7D%5Csum_%7Bj%3D1%7D%5E%7Bi-1%7D%5Clog%20%5Cfrac%7BD%28%7Bw_i%7D%5Ez%2C%20%7Bw_j%7D%5Ez%29%7D%7BD%28%7Bw_j%7D%5Ez%29%7D%2C)
 
-where ![](https://latex.codecogs.com/gif.latex?D%28%7Bw_i%7D%5Ez%2C%20%7Bw_j%7D%5Ez%29) is the co-occurrence frequency of the words $v_i$ and $v_j$ among documents in $z$ and $D({w_j}^z)$ is the total frequency of $w_j$ in $z$. Then, the total coherency of partitioning is calculated as follows:
+where ![](https://latex.codecogs.com/gif.latex?D%28%7Bw_i%7D%5Ez%2C%20%7Bw_j%7D%5Ez%29) is the co-occurrence frequency of the words *v<sub>i</sub>* and *v<sub>j</sub>* among documents in *z* and ![](https://latex.codecogs.com/gif.latex?D%28%7Bw_j%7D%5Ez%29) is the total frequency of *w<sub>j</sub>* in *z*. Then, the total coherency of partitioning is calculated as follows:
 
 ![](https://latex.codecogs.com/gif.latex?C%28T%29%20%3D%20%5Cfrac%7B1%7D%7Bk%7D%20%5Ctimes%20%5Csum_%7Bz%20%5Cin%20T%7DC%28z%2C%20W%5Ez%29)
 
