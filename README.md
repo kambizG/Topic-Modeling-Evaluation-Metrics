@@ -11,6 +11,6 @@ where ![](https://latex.codecogs.com/gif.latex?D%28%7Bw_i%7D%5Ez%2C%20%7Bw_j%7D%
 
 ![](https://latex.codecogs.com/gif.latex?C%28T%29%20%3D%20%5Cfrac%7B1%7D%7Bk%7D%20%5Ctimes%20%5Csum_%7Bz%20%5Cin%20T%7DC%28z%2C%20W%5Ez%29)
 
-# Ref: [D. Mimno, H. M. Wallach, E. Talley, M. Leenders, and A. McCallum, “Optimizing   semantic   coherence   in   topic   models,”   in Proceedings of   the   Conference   on   Empirical   Methods   in   Natural   Language Processing ,  ser.  EMNLP  ’11. Stroudsburg,  PA,  USA:  Association for Computational Linguistics, 2011, pp. 262–272.](http://dl.acm.org/citation.cfm?id=2145432.2145462)
+Reference: [D. Mimno, H. M. Wallach, E. Talley, M. Leenders, and A. McCallum, “Optimizing   semantic   coherence   in   topic   models,”   in Proceedings of   the   Conference   on   Empirical   Methods   in   Natural   Language Processing ,  ser.  EMNLP  ’11. Stroudsburg,  PA,  USA:  Association for Computational Linguistics, 2011, pp. 262–272.](http://dl.acm.org/citation.cfm?id=2145432.2145462)
 
 ## B-Cubed F-Score
