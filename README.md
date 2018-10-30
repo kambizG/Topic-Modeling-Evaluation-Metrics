@@ -8,7 +8,8 @@ $$C(z,W^z) = \sum_{i=2}^{m}\sum_{j=1}^{i-1}\log \frac{D({w_i}^z, {w_j}^z)}{D({w_
 
 where $D({w_i}^z, {w_j}^z)$ is the co-occurrence frequency of the words $v_i$ and $v_j$ among documents in $z$ and $D({w_j}^z)$ is the total frequency of $w_j$ in $z$. Then, the total coherency of partitioning is calculated as follows:
 
-$$C(T) = \frac{1}{k} \times \sum_{\forall z \in T}C(z, W^z).$$
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;C(T) = \frac{1}{k} \times \sum_{\forall z \in T}C(z, W^z)" title="" />
+
 
 
 ## B-Cubed F-Score
